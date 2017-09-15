@@ -82,6 +82,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.vr.high_performance.xml:system/etc/permissions/android.hardware.vr.high_performance.xml
 
+# OTA
+PRODUCT_PACKAGES += \
+    OTAUpdates
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.ota.version=$(shell date +%Y%m%d)
+
 # Power
 PRODUCT_PACKAGES += \
     power.msm8996

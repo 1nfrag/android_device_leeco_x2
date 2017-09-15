@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROM>
+  <!-- Your ROM Name -->
+  <RomName>AICP_X2</RomName>
+  <VersionName>20170915</VersionName>
+  <!-- Your ROM version. MUST be incrementally larger than previous versions -->
+  <!-- Do NOT use letters in your version number. Integers only -->
+  <!-- Previous version will be read from the build.prop -->
+  <VersionNumber type="integer">20170915</VersionNumber>
+  <!-- Linking to your files -->
+    <!-- <DirectUrl><![CDATA[http://www.example.com?file=file.zip?somethingelse&anotherthing]]></DirectUrl> -->
+    <!-- Use the above format if your URL has special characters in then, like an (&) ampersand -->
+    <!-- Enter <DirectUrl nil="true /> or <HttpUrl nil="true /> to indicate you won't be using a type of URL -->
+    <!-- HTTP link will open a web page -->
+    <!-- Direct Link overrides HTTP link -->
+  <DirectUrl><![CDATA[https://drive.google.com/open?id=0B4k5OpXTXcS9NmZsdzE4bnI4Njg]]></DirectUrl>
+  <HttpUrl><![CDATA[https://drive.google.com/open?id=0B4k5OpXTXcS9NmZsdzE4bnI4Njg]]></HttpUrl>
+  <!-- What version are you issuing? -->
+  <Android>7.1.2</Android>
+  <!-- Providing File Checking for direct downloads. You SHOULD offer this for your users whether using HTTP or Direct -->
+  <!-- OPTIONAL: Enter <CheckMD5 nil="true" /> offer MD5 checking -->
+  <CheckMD5 nil="false" />
+  <!-- The filesize of your ROM -->
+  <!-- Please enter this in BYTES only. Otherwise an incorrect value will be shown -->
+  <FileSize type="integer"></FileSize>
+  <!-- Developer or Team name. You can put anything here, even a couple of names -->
+  <!-- OPTIONAL: Enter <Developer nil="true" /> to hide this -->
+  <Developer>infrag</Developer>
+  <!-- Your ROM or Developer Website. Can be a personal site or your XDA/forum thread -->
+  <!-- OPTIONAL: Enter <Website nil="true" /> to hide this -->
+  <WebsiteURL>https://forum.xda-developers.com/le-max-2/development/kernel-blackscreen-leeco-x2-t3604445</WebsiteURL>
+  <!-- Your Donate URL -->
+  <!-- OPTIONAL: Enter <DonateURL nil="true" /> to hide this -->
+  <DonateURL nil="true" />
+  <!-- Put the changelog here... Use Markdown to format it -->
+  <!-- Again, surround special characters with the CDATA tags or your XML will NOT parse -->
+  <Changelog>### Changelog 15/09/2017 </Changelog>
+</ROM>
