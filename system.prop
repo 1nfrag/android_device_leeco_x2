@@ -58,7 +58,6 @@ setprop media.stagefright.enable-qcp true
 setprop persist.camera.capture.animate 1
 setprop persist.camera.tintless disable
 setprop persist.camera.qcom.misc 1
-setprop persist.hwc.dynamicfps 60
 
 ro.ota.romname=AICP_X2
 ro.ota.manifest=https://cdn.rawgit.com/1nfrag/android_device_leeco_x2/n7.1/ota.xml
