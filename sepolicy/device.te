@@ -1,4 +1,0 @@
-type fpc1020_device, dev_type;
-type fingerprint_device, dev_type;
-
-type consumer_ir_device, dev_type;
