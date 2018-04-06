@@ -123,10 +123,10 @@ service qfp-boot /system/bin/sh /system/etc/qfp_boot.sh
     group root
     oneshot
 
-service qfp-daemon /system/bin/qfp-daemon
+service qfp-daemon /vendor/bin/qfp-daemon
     class late_start
     user system
-    group system drmrpc diag input
+    group system drmrpc diag input sdcard_rw
 
 # autofocus fix
 on property:persist.camera.focus_fix=1
