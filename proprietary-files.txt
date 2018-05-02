@@ -300,12 +300,9 @@ vendor/lib64/libmdtp.so
 vendor/lib64/libmdtp_crypto.so
 
 # Fingerprint sensor
--app/QFingerprintService/QFingerprintService.apk
 vendor/bin/qfp-daemon
-vendor/etc/stargate/qfp_config.txt
+etc/stargate/qfp_config.txt
 vendor/lib64/hw/fingerprint.vendor.msm8996.so
-vendor/lib64/libqfp-service.so
-vendor/lib64/hw/fingerprint.qcom.so
 vendor/lib64/libqfp-service.so
 vendor/lib64/qfp.wakeup.so
 
